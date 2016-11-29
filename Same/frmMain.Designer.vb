@@ -29,8 +29,6 @@ Partial Class frmMain
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.tsbFile = New System.Windows.Forms.ToolStripMenuItem()
         Me.tsbNew = New System.Windows.Forms.ToolStripMenuItem()
-        Me.tsbOpen = New System.Windows.Forms.ToolStripMenuItem()
-        Me.tsbSave = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripSeparator()
         Me.tsbExit = New System.Windows.Forms.ToolStripMenuItem()
         Me.tsbLevels = New System.Windows.Forms.ToolStripDropDownButton()
@@ -74,7 +72,7 @@ Partial Class frmMain
         '
         'tsbFile
         '
-        Me.tsbFile.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbNew, Me.tsbOpen, Me.tsbSave, Me.ToolStripMenuItem1, Me.tsbExit})
+        Me.tsbFile.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbNew, Me.ToolStripMenuItem1, Me.tsbExit})
         Me.tsbFile.Name = "tsbFile"
         Me.tsbFile.Size = New System.Drawing.Size(37, 25)
         Me.tsbFile.Text = "File"
@@ -83,33 +81,19 @@ Partial Class frmMain
         '
         Me.tsbNew.Name = "tsbNew"
         Me.tsbNew.ShortcutKeys = System.Windows.Forms.Keys.F2
-        Me.tsbNew.Size = New System.Drawing.Size(122, 22)
+        Me.tsbNew.Size = New System.Drawing.Size(152, 22)
         Me.tsbNew.Text = "New"
-        '
-        'tsbOpen
-        '
-        Me.tsbOpen.Name = "tsbOpen"
-        Me.tsbOpen.ShortcutKeys = System.Windows.Forms.Keys.F3
-        Me.tsbOpen.Size = New System.Drawing.Size(122, 22)
-        Me.tsbOpen.Text = "Open"
-        '
-        'tsbSave
-        '
-        Me.tsbSave.Name = "tsbSave"
-        Me.tsbSave.ShortcutKeys = System.Windows.Forms.Keys.F4
-        Me.tsbSave.Size = New System.Drawing.Size(122, 22)
-        Me.tsbSave.Text = "Save"
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(119, 6)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(149, 6)
         '
         'tsbExit
         '
         Me.tsbExit.Name = "tsbExit"
         Me.tsbExit.ShortcutKeyDisplayString = "Esc"
-        Me.tsbExit.Size = New System.Drawing.Size(122, 22)
+        Me.tsbExit.Size = New System.Drawing.Size(152, 22)
         Me.tsbExit.Text = "Exit"
         '
         'tsbLevels
@@ -227,8 +211,6 @@ Partial Class frmMain
     Friend WithEvents imageList1 As System.Windows.Forms.ImageList
     Friend WithEvents tsbFile As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents tsbNew As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents tsbOpen As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents tsbSave As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem1 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents tsbExit As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents tsmiFile As System.Windows.Forms.ToolStripMenuItem
