@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class frmMain
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,26 +22,26 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip
-        Me.tslStatus = New System.Windows.Forms.ToolStripStatusLabel
-        Me.ToolStrip1 = New System.Windows.Forms.ToolStrip
-        Me.tsbFile = New System.Windows.Forms.ToolStripMenuItem
-        Me.tsbNew = New System.Windows.Forms.ToolStripMenuItem
-        Me.tsbOpen = New System.Windows.Forms.ToolStripMenuItem
-        Me.tsbSave = New System.Windows.Forms.ToolStripMenuItem
-        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripSeparator
-        Me.tsbExit = New System.Windows.Forms.ToolStripMenuItem
-        Me.tsbLevels = New System.Windows.Forms.ToolStripDropDownButton
-        Me.tsmiLevel1 = New System.Windows.Forms.ToolStripMenuItem
-        Me.tsmiLevel2 = New System.Windows.Forms.ToolStripMenuItem
-        Me.tsmiLevel3 = New System.Windows.Forms.ToolStripMenuItem
-        Me.tsmiLevel4 = New System.Windows.Forms.ToolStripMenuItem
-        Me.tsmiLevel5 = New System.Windows.Forms.ToolStripMenuItem
-        Me.tsmiFile = New System.Windows.Forms.ToolStripMenuItem
-        Me.tsmiNew = New System.Windows.Forms.ToolStripMenuItem
-        Me.tsmiOpen = New System.Windows.Forms.ToolStripMenuItem
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmMain))
+        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
+        Me.tslStatus = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
+        Me.tsbFile = New System.Windows.Forms.ToolStripMenuItem()
+        Me.tsbNew = New System.Windows.Forms.ToolStripMenuItem()
+        Me.tsbOpen = New System.Windows.Forms.ToolStripMenuItem()
+        Me.tsbSave = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.tsbExit = New System.Windows.Forms.ToolStripMenuItem()
+        Me.tsbLevels = New System.Windows.Forms.ToolStripDropDownButton()
+        Me.tsmiLevel1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.tsmiLevel2 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.tsmiLevel3 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.tsmiLevel4 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.tsmiLevel5 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.tsmiFile = New System.Windows.Forms.ToolStripMenuItem()
+        Me.tsmiNew = New System.Windows.Forms.ToolStripMenuItem()
+        Me.tsmiOpen = New System.Windows.Forms.ToolStripMenuItem()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.imageList1 = New System.Windows.Forms.ImageList(Me.components)
         Me.StatusStrip1.SuspendLayout()
@@ -83,33 +83,33 @@ Partial Class Form1
         '
         Me.tsbNew.Name = "tsbNew"
         Me.tsbNew.ShortcutKeys = System.Windows.Forms.Keys.F2
-        Me.tsbNew.Size = New System.Drawing.Size(152, 22)
+        Me.tsbNew.Size = New System.Drawing.Size(122, 22)
         Me.tsbNew.Text = "New"
         '
         'tsbOpen
         '
         Me.tsbOpen.Name = "tsbOpen"
         Me.tsbOpen.ShortcutKeys = System.Windows.Forms.Keys.F3
-        Me.tsbOpen.Size = New System.Drawing.Size(152, 22)
+        Me.tsbOpen.Size = New System.Drawing.Size(122, 22)
         Me.tsbOpen.Text = "Open"
         '
         'tsbSave
         '
         Me.tsbSave.Name = "tsbSave"
         Me.tsbSave.ShortcutKeys = System.Windows.Forms.Keys.F4
-        Me.tsbSave.Size = New System.Drawing.Size(152, 22)
+        Me.tsbSave.Size = New System.Drawing.Size(122, 22)
         Me.tsbSave.Text = "Save"
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(149, 6)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(119, 6)
         '
         'tsbExit
         '
         Me.tsbExit.Name = "tsbExit"
         Me.tsbExit.ShortcutKeyDisplayString = "Esc"
-        Me.tsbExit.Size = New System.Drawing.Size(152, 22)
+        Me.tsbExit.Size = New System.Drawing.Size(122, 22)
         Me.tsbExit.Text = "Exit"
         '
         'tsbLevels
@@ -194,7 +194,7 @@ Partial Class Form1
         Me.imageList1.Images.SetKeyName(12, "white.png")
         Me.imageList1.Images.SetKeyName(13, "yellow.png")
         '
-        'Form1
+        'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -203,7 +203,8 @@ Partial Class Form1
         Me.Controls.Add(Me.StatusStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MaximizeBox = False
-        Me.Name = "Form1"
+        Me.Name = "frmMain"
+        Me.ShowIcon = False
         Me.Text = "Find Match"
         Me.StatusStrip1.ResumeLayout(False)
         Me.StatusStrip1.PerformLayout()

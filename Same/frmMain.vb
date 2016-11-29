@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class frmMain
     Dim SelectedOne As PictureBox : Dim TotalRow, TotalCol As Integer : Dim ArrayImages() As Integer : Dim GameTime As Integer
 #Region "Least Important"
     Private Sub Form1_KeyDown(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles Me.KeyDown

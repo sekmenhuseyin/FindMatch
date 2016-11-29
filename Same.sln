@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FindMatch", "WindowsApplication12\FindMatch.vbproj", "{96A1BC8B-1E54-434C-9966-0C284E3148BF}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FindMatch", "Same\Same.vbproj", "{96A1BC8B-1E54-434C-9966-0C284E3148BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
